@@ -1,0 +1,53 @@
+
+.buttonThemecontainer {
+    width: 80px;
+    height: 45px;
+    background-color: rgb(247, 201, 240);
+    border: 2px solid rgb(250, 143, 205);
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+
+.backgroundButtontheme {
+    width: 69px;
+    height: 34px;
+    background-color: rgb(73, 69, 72);
+    border-radius: 20px;
+    position: relative;
+    top: 3.5px;
+    left: 3.5px;
+}
+
+.buttonThemelight {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(240, 217, 217);
+    border: 3px solid rgb(250, 143, 205);
+    border-radius: 20px;
+    position: absolute;
+    left: -1px;
+    top: -0.5px;
+}
+
+.buttonThemelight:hover {
+    opacity: 0.7;
+}
+
+.lightModeicon {
+    position: relative;
+    right: 3.8px;
+    top: 1px;
+}
+
+.buttonThemedark {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(121, 116, 116);
+    border: 3px solid rgb(250, 143, 205);
+    border-radius: 20px;
+    position: absolute;
+    left: 35px;
+    top: -0.5px;
+}
