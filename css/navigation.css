@@ -1,20 +1,3 @@
-
-
-.navBar__tableCell {
-    border: 2px solid rgb(190, 132, 243);
-    padding: 10px;
-    background-color: rgb(190, 132, 243);
-    text-align: center;
-    vertical-align: middle;
-}
-
-.navBar__table {
-    font-family: "Arial", sans-serif;
-    font-size: 15px;
-    border-collapse: collapse;
-    margin: 10px auto;
-}
-
 .navBar {
     background-color: rgb(219, 191, 245);
     padding: 5px;
@@ -22,24 +5,48 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px 20px rgb(219 191 245);
     margin: 30px auto;
-    overflow-x: auto;
+    /* overflow-x: auto; */
 }
 
-.navBar__tableCell:nth-child(even) {
-    background-color: rgb(204, 161, 243);
+.navBar__list {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 0;
 }
 
-.navBar__tableCell:hover {
-    background-color: rgb(156, 116, 156);
+.navBar__listItem--imagine.navBar__listItem--imagine {
+    padding: 11.5px;
+    line-height: 0.5;
+}
+
+.navBar__listItem {
+    border: 2px solid rgb(190, 132, 243);
+    padding: 20px 0;
+    background-color: rgb(190, 132, 243);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.navBar__listItem:hover {
+    background-color: rgb(255 209 248);
+    transition: .7s;
 }
 
 .navBar__link {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.navBar__link:hover {
-    opacity: 0.5;
-    outline: none;
+
+.navBar__linkContent {
+    padding: 20px 10px;
 }
 
 .navBar__link:active {
