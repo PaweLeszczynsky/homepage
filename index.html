@@ -20,7 +20,7 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body class="background allWebsite">
+<body class="js-backgroundTheme bodyContainer">
     <header class="websiteName" id="home">Mieszcat</header>
     <nav class="navBar">
         <ul class="navBar__list">
@@ -35,27 +35,29 @@
         </ul>
     </nav>
     <h1 class="mainHeader">Mieszko - Rudzielec z prawdziwego zdarzenia</h1>
-    <main class="mainContainer">
-        <div class="buttonThemecontainer">
-            <div class="backgroundButtontheme">
-                <button class="buttonThemelight">
-                    <img class="lightModeicon" width="25" height="25" src="images/brightness.png" id="light"
-                        alt="lightMode">
+    <main class="mainSection">
+        <div class="mainSection__buttonThemecontainer">
+            <div class="mainSection__buttonThemecontainer__rangeChangepositionContainer">
+                <button
+                    class="mainSection__buttonThemecontainer__buttonLightmode js-mainSection__buttonThemecontainer__buttonLightmode">
+                    <img class="mainSection__buttonThemecontainer__buttonLightmode__icon" width="25" height="25"
+                        src="images/brightness.png" id="themeChanger" alt="lightMode">
                 </button>
             </div>
         </div>
-        <section class="sectionOne" id="Prezentacja">
-            <h2 class="sectionHeader">Prezentacja Mieszka</h2>
+        <section class="mainSection__section" id="Prezentacja">
+            <h2 class="mainSection__section__sectionHeader">Prezentacja Mieszka</h2>
             <img class="img" width="200" height="200" src="images/m6.PNG" alt="firstImgmieszko">
             <img class="img" width="200" height="200" src="images/m7.PNG" alt="secoundImgmieszko">
         </section>
-        <section class="sectionTwo">
-            <h2 class="sectionHeader">Mieszko posiada również brata Freda</h2>
+        <section class="mainSection__section">
+            <h2 class="mainSection__section__sectionHeader">Mieszko posiada również brata Freda</h2>
             <img class="img" width="200" height="200" src="images/m1.jpg" alt="imgFred">
         </section>
-        <section class="sectionThree" id="Charakterystyka">
-            <h2 class="sectionHeader">Charakterystyka</h2>
-            <p class="sectionThree__textStyle">Mieszko jest kotem dachowym. Został przygarnięty i zabrany prosto z
+        <section class="mainSection__section" id="Charakterystyka">
+            <h2 class="mainSection__section__sectionHeader">Charakterystyka</h2>
+            <p class="mainSection__section_paragraph">Mieszko jest kotem dachowym. Został przygarnięty i zabrany prosto
+                z
                 ulicy. Ma charakter
                 typowego
                 kota. Chodzi swoimi drogami, a większość czasu spędza na dworze. Mimo tego lubi bardzo przytulanie i
@@ -66,22 +68,22 @@
                 idealnie, lecz nie są rodzeństwem.
             </p>
         </section>
-        <section class="sectionFour" id="Zabawki">
-            <h2 class="sectionHeader">Ulubione zabawki:</h2>
-            <ul class="sectionFour__list">
-                <li class="sectionFour__listItem">Gumowa piłka
-                    <ul class="sectionFour__list">
-                        <li class="sectionFour__listItem">czerwona</li>
-                        <li class="sectionFour__listItem">zielona</li>
+        <section class="mainSection__section" id="Zabawki">
+            <h2 class="mainSection__section__sectionHeader">Ulubione zabawki:</h2>
+            <ul class="mainSection__section__list">
+                <li class="mainSection__section__listItem">Gumowa piłka
+                    <ul class="mainSection__section__list">
+                        <li class="mainSection__section__listItem">czerwona</li>
+                        <li class="mainSection__section__listItem">zielona</li>
                     </ul>
                 </li>
-                <li class="sectionFour__listItem">Wędka z myszą</li>
-                <li class="sectionFour__listItem">Drapak</li>
-                <li class="sectionFour__listItem">Pluszowa ryba</li>
+                <li class="mainSection__section__listItem">Wędka z myszą</li>
+                <li class="mainSection__section__listItem">Drapak</li>
+                <li class="mainSection__section__listItem">Pluszowa ryba</li>
             </ul>
         </section>
     </main>
-    <a href="#home"><img class="pageUp" width="40" height="40" src="images/up.png" alt="goTohome"></a>
+    <a href="#home"><img class="pageUp" width="40" height="40" src="images/up.png" alt="go back to navigation"></a>
     <footer class="footer"> <span class="footer__copyRightsymbol">&copy;</span> Wszelkie prawa zastrzeżone</footer>
 </body>
 

@@ -1,5 +1,5 @@
 
-.buttonThemecontainer {
+.mainSection__buttonThemecontainer {
     width: 80px;
     height: 45px;
     background-color: rgb(247, 201, 240);
@@ -10,7 +10,7 @@
     top: 0px;
 }
 
-.backgroundButtontheme {
+.mainSection__buttonThemecontainer__rangeChangepositionContainer {
     width: 69px;
     height: 34px;
     background-color: rgb(73, 69, 72);
@@ -20,7 +20,7 @@
     left: 3.5px;
 }
 
-.buttonThemelight {
+.mainSection__buttonThemecontainer__buttonLightmode {
     width: 35px;
     height: 35px;
     background-color: rgb(240, 217, 217);
@@ -31,17 +31,17 @@
     top: -0.5px;
 }
 
-.buttonThemelight:hover {
+.mainSection__buttonThemecontainer__buttonLightmode:hover {
     opacity: 0.7;
 }
 
-.lightModeicon {
+.mainSection__buttonThemecontainer__buttonLightmode__icon {
     position: relative;
     right: 3.8px;
     top: 1px;
 }
 
-.buttonThemedark {
+.mainSection__buttonThemecontainer__buttonDarkmode {
     width: 35px;
     height: 35px;
     background-color: rgb(121, 116, 116);

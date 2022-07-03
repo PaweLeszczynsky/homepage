@@ -1,11 +1,8 @@
-let tlo = document.querySelector(".background");
-let buttonTwo = document.querySelector(".buttonThemelight");
-let lightdarkicon = document.querySelector(".lightModeicon");
-
-
-    buttonTwo.addEventListener("click", () => {
-    buttonTwo.classList.toggle("buttonThemedark");
-    tlo.classList.toggle("dark");
-    document.getElementById("light").src = tlo.classList.contains("dark") ? "images/night-mode.png" : "images/brightness.png"
+const buttonThemeColor = document.querySelector(".js-mainSection__buttonThemecontainer__buttonLightmode");
+buttonThemeColor.addEventListener("click", () => {
+    const backgroundColor = document.querySelector(".js-backgroundTheme");
+    buttonThemeColor.classList.toggle("mainSection__buttonThemecontainer__buttonDarkmode");
+    backgroundColor.classList.toggle("darkTheme");
+    document.getElementById("themeChanger").src = backgroundColor.classList.contains("darkTheme") ? "images/night-mode.png" : "images/brightness.png"
 });
 
