@@ -51,18 +51,6 @@ html {
     padding-top: 0;
 }
 
-.buttonOne {
-    font-family: "EB Garamond", sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    background-color: rgb(247, 201, 240);
-    border: 2px solid rgb(250, 143, 205);
-    border-radius: 5px;
-    position: absolute;
-    left: 20px;
-    top: 10px;
-}
-
 .sectionHeader {
     color: rgb(218, 65, 96);
     font: 600 normal 30px/2 "EB Garamond", sans-serif;
@@ -166,8 +154,4 @@ html {
 
 .img:hover {
     opacity: 0.7;
-}
-
-.buttonOne:hover {
-    background-color: rgb(156, 116, 156);
 }
