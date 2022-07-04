@@ -13,7 +13,7 @@
 .mainSection__buttonThemecontainer__rangeChangepositionContainer {
     width: 69px;
     height: 34px;
-    background-color: rgb(73, 69, 72);
+    background-color: rgb(60,60,60);
     border-radius: 20px;
     position: relative;
     top: 3.5px;
@@ -42,7 +42,7 @@
 }
 
 .mainSection__buttonThemecontainer__buttonDarkmode {
-    background-color: rgb(121, 116, 116);
+    background-color: rgb(60,60,60);
     position: absolute;
     left: 35px;
     top: -0.5px;
