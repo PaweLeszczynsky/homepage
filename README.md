@@ -15,3 +15,5 @@ Website has many interactions:
 - smooth transition to each section using navigation
 - back to top of website using right-bottom corner button
 - change the background color of the website - light/dark mode
+
+![DarkmodeSS](https://github.com/PaweLeszczynsky/homepage/blob/main/images/darkmode-preview.png?raw=true)
