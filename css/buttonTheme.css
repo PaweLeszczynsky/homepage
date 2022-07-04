@@ -42,11 +42,7 @@
 }
 
 .mainSection__buttonThemecontainer__buttonDarkmode {
-    width: 35px;
-    height: 35px;
     background-color: rgb(121, 116, 116);
-    border: 3px solid rgb(250, 143, 205);
-    border-radius: 20px;
     position: absolute;
     left: 35px;
     top: -0.5px;
